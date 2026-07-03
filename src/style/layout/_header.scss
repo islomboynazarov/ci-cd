@@ -135,16 +135,20 @@
   }
 
   &__link {
-    color: variables.$grey-dark;
-    transition: 0.5s;
+  color: variables.$grey-dark;
+  transition: 0.5s;
+  padding: 10px 15px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  min-width: 44px;
 
-    &:hover, &:active {
-      text-decoration: none;
-      color: variables.$green-dark;
-      outline: none;
-    }
-
+  &:hover, &:active {
+    text-decoration: none;
+    color: variables.$green-dark;
+    outline: none;
   }
+}
 
 }
 
